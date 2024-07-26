@@ -15,28 +15,31 @@ Data Preprocessing: Functions to clean and preprocess scraped data.
 Extensible Design: Modular structure to easily add more functionalities in the future.
 
 ## Project Structure
-- .github
-  - workflows
-    - workflow.yml
-- scripts
-  - api
-  - automation
-  - data_annotation
-  - data_collection
-      - create_raw_database.py
-      - facebook_scrapper.py
-      - scrapper.py
-      - utils.py
-  - data_preprocessing
-      - clean_text.py
-      - create_preprocessed_database.py
-      - database_operations.py
-      - preprocess.py
-  - create_database.py
-  - schema.sql
-- .gitignore
-- news_sources.json
-- requirements.txt
+
+
+LLM_fine_tunning_API/ 
+├── .github/ 
+│ └── workflows/ 
+│ └── workflow.yml 
+├── scripts/ 
+│ ├── api/ 
+│ ├── automation/ 
+│ ├── data_annotation/ 
+│ ├── data_collection/ 
+│ │ ├── create_raw_database.py 
+│ │ ├── facebook_scrapper.py 
+│ │ ├── scrapper.py
+│ │ └── utils.py 
+│ ├── data_preprocessing/ 
+│ │ ├── clean_text.py 
+│ │ ├── create_preprocessed_database.py 
+│ │ ├── database_operations.py 
+│ │ └── preprocess.py 
+│ └── create_database.py 
+├── .gitignore 
+├── news_sources.json 
+├── requirements.txt 
+└── schema.sql
 
 ## Installation
 To get started with this project, clone the repository and install the required dependencies.
@@ -71,6 +74,9 @@ Make your changes and commit them with descriptive messages.
 Push your changes to your fork.
 Open a pull request to the main repository.
 Please ensure your code adheres to the project's coding standards and includes relevant tests.
+
+## Contributors
+For a list of contributors, see the CONTRIBUTORS.md file.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.

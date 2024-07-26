@@ -17,28 +17,50 @@ Extensible Design: Modular structure to easily add more functionalities in the f
 ## Project Structure
 
 
-LLM_fine_tunning_API/ 
+LLM_fine_tunning_API/
+
 ├── .github/ 
+
 │ └── workflows/ 
-│ └── workflow.yml 
+
+│ └── workflow.yml
+
 ├── scripts/ 
+
 │ ├── api/ 
+
 │ ├── automation/ 
+
 │ ├── data_annotation/ 
+
 │ ├── data_collection/ 
+
 │ │ ├── create_raw_database.py 
+
 │ │ ├── facebook_scrapper.py 
+
 │ │ ├── scrapper.py
+
 │ │ └── utils.py 
+
 │ ├── data_preprocessing/ 
+
 │ │ ├── clean_text.py 
+
 │ │ ├── create_preprocessed_database.py 
+
 │ │ ├── database_operations.py 
+
 │ │ └── preprocess.py 
+
 │ └── create_database.py 
+
 ├── .gitignore 
+
 ├── news_sources.json 
+
 ├── requirements.txt 
+
 └── schema.sql
 
 ## Installation
